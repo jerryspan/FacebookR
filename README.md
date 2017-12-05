@@ -19,10 +19,10 @@ We also provide Python 3 scripts that can be used to work with the data. One nee
 ---
 #### database_access.py
 
-``DataStorage`` is a base class (abstract class) for accessing/reading/writing to the MongoDB.  
+``DataStorage`` is a base class (abstract class) for accessing/reading/writing to MongoDB.
 
 #### mongodb.py
 ``MongodbStorage`` inherits from ``DataStorage`` and contains the implemented database access (default database name is "research\_project", the user should use ``<name_of_the_database>`` as specified in the import command). There are various methods to read and write information to the database tables. 
 
-####data_types.py
+#### data_types.py
 Furthermore, ``Post``, ``Comment`` and ``Emotion`` are three data classes that can hold information of the corresponding database tables. 
