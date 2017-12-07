@@ -8,7 +8,7 @@ This dataset was created for a research project at the Department of Data Scienc
 
 ## Usage
 ### Database 
-The database used in this project is **[MongoDB](https://www.mongodb.com/)**. The files in this repository are dumb-files created by MongoDB. So, one can unzip the files, start MongoDB on your machine and use the following command to import the files in your MongoDB:
+The database used in this project is **[MongoDB](https://www.mongodb.com/)**. The files in this repository are dump-files created by MongoDB. So, one can unzip the files, start MongoDB on your machine and use the following command to import the files in your MongoDB:
 ```bash
 mongorestore -d <name_of_the_database> <your_path_to_the_github_files>
 ```
